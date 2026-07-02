@@ -1,4 +1,19 @@
-model/
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Training artifacts
+models/
 history/
-.ipynb_checkpoints
-.vscode
+
+# TensorBoard
+logs/
+*.keras
+*.h5
+*.ckpt
